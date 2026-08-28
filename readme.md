@@ -134,4 +134,78 @@ Os erros observados, principalmente nos objetos de porcelana e na cadeira gamer,
 
 Dessa forma, o experimento complementar reforça a importância de avaliar modelos de aprendizado de máquina não apenas com dados provenientes da mesma distribuição utilizada durante seu desenvolvimento, mas também em exemplos externos e mais próximos de aplicações reais.
 
+### Exemplos das classificações realizadas
+
+#### Boneco/Funko Pop
+
+![Boneco/Funko Pop](./external_images/luffy.jpeg)
+
+**Classe esperada:** `3d_printed`  
+**Classe prevista:** `3d_printed`  
+**Confiança:** 98,38%  
+**Resultado:** ✅ Acerto
+
+#### Bola de beisebol
+
+![Bola de beisebol](./external_images/bola_beisebol.jpeg)
+
+**Classe esperada:** `not_3d_printed`  
+**Classe prevista:** `not_3d_printed`  
+**Confiança:** 95,81%  
+**Resultado:** ✅ Acerto
+
+#### Pikachu
+
+![Pikachu](./external_images/pikachu.jpeg)
+
+**Classe esperada:** `3d_printed`  
+**Classe prevista:** `3d_printed`  
+**Confiança:** 99,95%  
+**Resultado:** ✅ Acerto
+
+#### Prato decorativo
+
+![Prato decorativo](./external_images/prato.jpeg)
+
+**Classe esperada:** `not_3d_printed`  
+**Classe prevista:** `not_3d_printed`  
+**Confiança:** 99,99%  
+**Resultado:** ✅ Acerto
+
+#### Vaso de porcelana
+
+![Vaso de porcelana](./external_images/vaso.jpeg)
+
+**Classe esperada:** `not_3d_printed`  
+**Classe prevista:** `3d_printed`  
+**Confiança:** 93,67%  
+**Resultado:** ❌ Erro
+
+#### Vaso de porcelana 2
+
+![Vaso de porcelana 2](./external_images/vaso2.jpeg)
+
+**Classe esperada:** `not_3d_printed`  
+**Classe prevista:** `3d_printed`  
+**Confiança:** 100,00%  
+**Resultado:** ❌ Erro
+
+#### Cadeira gamer
+
+![Cadeira gamer](./external_images/cadeira.jpeg)
+
+**Classe esperada:** `not_3d_printed`  
+**Classe prevista:** `3d_printed`  
+**Confiança:** 99,99%  
+**Resultado:** ❌ Erro
+
+#### Livro
+
+![Livro](./external_images/livro.jpeg)
+
+**Classe esperada:** `not_3d_printed`  
+**Classe prevista:** `not_3d_printed`  
+**Confiança:** 91,41%  
+**Resultado:** ✅ Acerto
+
 Thiago Nunes Rodrigues da Silva
